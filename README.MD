@@ -1,3 +1,6 @@
+THIS SOFTWARE IS IN ALFA Thats why there is no binary Download.  Im still Working On the basic use of this program(Update 10/7/16)
+
+
 
 A easer way to manage the Dns servers, With adding,removing or switching servers.
 
