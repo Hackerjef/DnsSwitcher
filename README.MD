@@ -1,4 +1,4 @@
-THIS SOFTWARE IS IN ALFA Thats why there is no binary Download.  Im still Working On the basic use of this program(Update 10/7/16)
+THIS SOFTWARE IS IN ALPHA Thats why there is no binary Download(exe).  Im still Working On the basic use of this program(Update 10/7/16)
 
 
 
