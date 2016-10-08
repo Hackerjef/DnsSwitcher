@@ -1,8 +1,5 @@
-﻿Imports System
-Imports System.Security
-Imports System.Security.Cryptography
-Imports System.Text
-Imports Ionic.Zip
+﻿Imports Ionic.Zip
+Imports Newtonsoft.Json
 
 Public Class Form1
     Dim QuicksetDnsexe As String
@@ -10,14 +7,17 @@ Public Class Form1
     Dim QuicksetDnszip As String
     Dim QuicksetDnsdir As String
 
-
-
-
     Public Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         DownloadQuickDns()
+        Readsettingsfile()
+
+
+
+
     End Sub
 
-    Private Sub DownloadQuickDns()
+    Public Sub DownloadQuickDns()
+        ' set all the stuff for extracting the zip/ Downloading it
         projectDirectory = My.Computer.FileSystem.CurrentDirectory
         QuicksetDnsexe = projectDirectory
         QuicksetDnsexe += "/QuicksetDns/QuickSetDNS.exe"
@@ -33,7 +33,6 @@ Public Class Form1
             My.Computer.Network.DownloadFile("http://www.nirsoft.net/utils/quicksetdns.zip", QuicksetDnszip)
             Console.WriteLine("Extracting file {0} to {1}", QuicksetDnszip, QuicksetDnsdir)
             Using zip1 As ZipFile = ZipFile.Read(QuicksetDnszip)
-                ' AddHandler zip1.ExtractProgress, AddressOf MyExtractProgress
                 Dim e As ZipEntry
                 ' here, we extract every entry, but we could extract    
                 ' based on entry name, size, date, etc.   
@@ -45,5 +44,10 @@ Public Class Form1
         End If
 quit:
     End Sub
+
+    Public Sub Readsettingsfile()
+
+    End Sub
+
 
 End Class

@@ -29,11 +29,14 @@ QuickSetDNS by Nir Sofer (http://www.nirsoft.net/) license:
 
 This utility is released as freeware. You are allowed to freely distribute this utility via floppy disk, CD-ROM, Internet, or in any other way, as long as you don't charge anything for this and you don't sell it or distribute it as a part of commercial product. If you distribute this utility, you must include all files in the distribution package, without any modification!
 
+
+(Quicksetdns Gets Downloaded from nirsoft website. http://www.nirsoft.net/utils/quicksetdns.zip)
+
+
 DotNetZip (Http://dotnetzip.codeplex.com/) license:
 
 http://dotnetzip.codeplex.com/license
 
+Json.net (http://json.codeplex.com/) license:
 
-
-
-
+http://json.codeplex.com/license
